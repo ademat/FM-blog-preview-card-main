@@ -1,8 +1,9 @@
 <script setup lang="ts">
+  import CourseCard from "@/components/CourseCard.vue";
 </script>
 
 <template>
-  <div class="text-3xl font-bold underline">
-    Content
-  </div>
+  <main class="bg-yellow w-screen h-screen flex items-center justify-center">
+    <CourseCard/>
+  </main>
 </template>
