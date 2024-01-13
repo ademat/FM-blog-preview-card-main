@@ -13,6 +13,7 @@ export default {
       white: '#FFFFFF'
     },
     boxShadow: {
+      small: '8px 8px #111111',
       large: '16px 16px #111111'
     },
     borderRadius: {
