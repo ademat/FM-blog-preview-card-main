@@ -5,5 +5,5 @@ defineProps<{
 </script>
 
 <template>
-  <img class="rounded-full h-8 w-8" :src="imageUrl" />
+  <img class="rounded-full h-8 w-8" :src="imageUrl" alt="avatar" />
 </template>
