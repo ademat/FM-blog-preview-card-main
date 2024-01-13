@@ -4,7 +4,7 @@ import UserAvatar from './UserAvatar.vue'
 </script>
 
 <template>
-  <main
+  <article
     class="shadow-small flex w-[327px] flex-col items-start gap-6 rounded-large border border-black bg-white p-6 hover:shadow-large sm:w-96"
   >
     <img
@@ -27,5 +27,5 @@ import UserAvatar from './UserAvatar.vue'
       <UserAvatar image-url="/image-avatar.webp" />
       <div class="text-sm font-extrabold">Greg Hooper</div>
     </div>
-  </main>
+  </article>
 </template>
