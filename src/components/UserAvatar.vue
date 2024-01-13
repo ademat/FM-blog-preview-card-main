@@ -1,9 +1,9 @@
 <script setup lang="ts">
-    defineProps<{
-        imageUrl: string;
-    }>();
+defineProps<{
+  imageUrl: string
+}>()
 </script>
 
 <template>
-    <img class="rounded-full w-8 h-8" :src="imageUrl"/>
+  <img class="rounded-full h-8 w-8" :src="imageUrl" />
 </template>
